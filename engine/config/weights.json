@@ -1,0 +1,52 @@
+{
+  "traffic_penalties": {
+    "Low": 1.0,
+    "Moderate": 2.0,
+    "High": 4.0,
+    "Severe": 7.0
+  },
+  "modes": {
+    "walking": {
+      "alpha": 1.0,
+      "beta": 1.0,
+      "gamma": 0.05,
+      "delta": 0.5,
+      "road_penalties": {
+        "motorway": 1000.0,
+        "trunk": 500.0,
+        "primary": 5.0,
+        "secondary": 1.0,
+        "residential": 0.0,
+        "pedestrian": 0.0
+      }
+    },
+    "car": {
+      "alpha": 0.4,
+      "beta": 0.8,
+      "gamma": 0.5,
+      "delta": 0.1,
+      "road_penalties": {
+        "motorway": 0.0,
+        "trunk": 0.0,
+        "primary": 0.1,
+        "secondary": 0.2,
+        "residential": 1.0,
+        "pedestrian": 1000.0
+      }
+    },
+    "heavy": {
+      "alpha": 0.3,
+      "beta": 0.6,
+      "gamma": 0.8,
+      "delta": 0.6,
+      "road_penalties": {
+        "motorway": 0.0,
+        "trunk": 0.0,
+        "primary": 0.2,
+        "secondary": 1.0,
+        "residential": 10.0,
+        "pedestrian": 1000.0
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "traffic-optimization",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Traffic Route Optimization using Graph Algorithms",
+  "scripts": {
+    "dev": "npm run dev --prefix frontend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev:gateway": "npm run dev --prefix gateway",
+    "build:frontend": "npm run build --prefix frontend",
+    "build:gateway": "npm run build --prefix gateway"
+  }
+}
